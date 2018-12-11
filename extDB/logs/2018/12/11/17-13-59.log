@@ -1,0 +1,22 @@
+extDB2: Version: 70
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 8 Cores, Setting up 6 Worker Threads
+
+
+[18:13:59:882710 +02:00] [Thread 31384] extDB2: Database Type: MySQL
+[18:13:59:895664 +02:00] [Thread 31384] extDB2: Database Session Pool Started
+[18:13:59:896090 +02:00] [Thread 31384] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Arma\Server\@Exileserver\extDB\sql_custom_v2\exile.ini
+[18:13:59:896110 +02:00] [Thread 31384] extDB2: SQL_CUSTOM_V2: Version 1 Detected, Latest Version 12 Available
+[18:13:59:896123 +02:00] [Thread 31384] extDB2: SQL_CUSTOM_V2: Incompatible Version: 1 Required: 8
+[18:13:59:896132 +02:00] [Thread 31384] extDB2: Failed to Load Protocol: SQL_CUSTOM_V2
+[18:13:59:896215 +02:00] [Thread 31384] extDB2: Sending Shutdown to Armaserver

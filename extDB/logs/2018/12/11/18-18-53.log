@@ -1,0 +1,35 @@
+extDB2: Version: 70
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 8 Cores, Setting up 6 Worker Threads
+
+
+[19:18:53:817199 +02:00] [Thread 27988] extDB2: Database Type: MySQL
+[19:18:53:820582 +02:00] [Thread 27988] extDB2: Database Session Pool Started
+[19:18:53:821735 +02:00] [Thread 27988] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Arma\Server\@Exileserver\extDB\sql_custom_v2\exile.ini
+[19:18:53:821859 +02:00] [Thread 27988] extDB2: SQL_CUSTOM_V2: Version 12 Detected, Latest Version 12 Available
+[19:18:54:140036 +02:00] [Thread 31584] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.construction' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: UPDATE construction SET pin_code = '0000' WHERE (SELECT flag_stolen_at FROM territory WHERE territory.id = construction.territory_id AND territory.flag_stolen_at < DATE_SUB(NOW(), INTERVAL ? DAY)) AND pin_code != '000000'
+[19:18:54:140422 +02:00] [Thread 31584] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:18:54:147172 +02:00] [Thread 31584] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: setAbandonedUnlocked:2
+[19:18:54:147708 +02:00] [Thread 31720] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.construction' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: DELETE FROM construction WHERE deleted_at < DATE_SUB(NOW(), INTERVAL ? DAY) AND territory_id IS NULL
+[19:18:54:147735 +02:00] [Thread 31720] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:18:54:147813 +02:00] [Thread 25604] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.construction' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: UPDATE construction SET deleted_at = NOW() WHERE spawned_at < DATE_SUB(NOW(), INTERVAL ? DAY) AND territory_id IS NULL AND deleted_at IS NULL
+[19:18:54:147835 +02:00] [Thread 25604] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:18:54:147927 +02:00] [Thread 25604] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: markDeleteOldConstructions:2
+[19:18:54:147933 +02:00] [Thread 31720] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: deleteOldConstructions:3
+[19:18:54:149209 +02:00] [Thread 31472] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.construction' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: UPDATE construction SET deleted_at = (SELECT deleted_at FROM territory WHERE territory.id = construction.territory_id AND territory.deleted_at IS NOT NULL) WHERE construction.territory_id IS NOT NULL
+[19:18:54:149229 +02:00] [Thread 31472] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:18:54:150721 +02:00] [Thread 31472] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: markDeleteUnpaidTerritories:7
+[19:18:54:153801 +02:00] [Thread 27988] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.construction' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT id FROM construction WHERE deleted_at IS NULL LIMIT ?,?
+[19:18:54:153820 +02:00] [Thread 27988] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:18:54:153828 +02:00] [Thread 27988] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: loadConstructionIdPage:0:100
+[19:21:29:041680 +02:00] [Thread 27988] extDB2: Stopping ...

@@ -1,0 +1,107 @@
+extDB2: Version: 70
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 8 Cores, Setting up 6 Worker Threads
+
+
+[03:08:22:547859 +02:00] [Thread 23532] extDB2: Database Type: MySQL
+[03:08:22:550773 +02:00] [Thread 23532] extDB2: Database Session Pool Started
+[03:08:22:552331 +02:00] [Thread 23532] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Arma\Server\@Exileserver\extDB\sql_custom_v2\exile.ini
+[03:08:22:552470 +02:00] [Thread 23532] extDB2: SQL_CUSTOM_V2: Version 12 Detected, Latest Version 12 Available
+[03:08:23:934195 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:84096:exile
+[03:08:23:934275 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:23:934288 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:25:146986 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:812553:exile
+[03:08:25:147061 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:25:147074 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:26:436521 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:459087:exile
+[03:08:26:436634 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:26:436654 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:27:684538 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:694241:exile
+[03:08:27:684615 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:27:684629 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:28:805337 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:818030:exile
+[03:08:28:805411 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:28:805424 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:29:939136 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:91135:exile
+[03:08:29:939209 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:29:939222 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:31:127635 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:203760:exile
+[03:08:31:127715 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:31:127728 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:32:355454 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:557507:exile
+[03:08:32:355538 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:32:355552 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:33:577674 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:427778:exile
+[03:08:33:577757 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:33:577771 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:34:725734 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:955080:exile
+[03:08:34:725813 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:34:725827 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:36:068188 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:184887:exile
+[03:08:36:068267 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:36:068328 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:37:360643 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:312607:exile
+[03:08:37:360725 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:37:360740 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:38:677218 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:500682:exile
+[03:08:38:677293 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:38:677306 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:39:935898 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:869513:exile
+[03:08:39:935972 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:39:935985 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:41:255860 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:922789:exile
+[03:08:41:255934 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:41:255948 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:42:550936 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:469352:exile
+[03:08:42:551010 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:42:551023 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:44:025050 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:513211:exile
+[03:08:44:025130 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:44:025143 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:45:243789 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:216908:exile
+[03:08:45:243862 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:45:243875 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:46:478599 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:392529:exile
+[03:08:46:478669 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:46:478682 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:47:713006 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:420177:exile
+[03:08:47:713083 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:47:713096 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:48:929741 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:701924:exile
+[03:08:48:929812 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:48:929825 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:50:365642 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:180270:exile
+[03:08:50:365720 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:50:365733 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:51:559774 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:761081:exile
+[03:08:51:559852 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:51:559866 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:52:722505 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:443435:exile
+[03:08:52:722578 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:52:722590 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:54:045576 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:284056:exile
+[03:08:54:045650 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:54:045701 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:55:439020 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:764980:exile
+[03:08:55:439117 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:55:439131 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:56:683698 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:146007:exile
+[03:08:56:683772 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:56:683785 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:57:934913 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:329738:exile
+[03:08:57:934991 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:57:935005 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:59:302991 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:ADD_DATABASE_PROTOCOL:exile:SQL_CUSTOM_V2:746458:exile
+[03:08:59:303108 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:08:59:303128 +02:00] [Thread 23532] extDB2: Error Invalid Format: 9:SHUTDOWN
+[03:09:02:322786 +02:00] [Thread 23532] extDB2: Stopping ...

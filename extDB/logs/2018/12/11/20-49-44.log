@@ -1,0 +1,40 @@
+extDB2: Version: 70
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 8 Cores, Setting up 6 Worker Threads
+
+
+[21:49:46:403254 +02:00] [Thread 3968] extDB2: Database Type: MySQL
+[21:49:46:411254 +02:00] [Thread 3968] extDB2: Database Session Pool Started
+[21:49:46:415254 +02:00] [Thread 3968] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Arma\Server\@Exileserver\extDB\sql_custom_v2\exile.ini
+[21:49:46:416254 +02:00] [Thread 3968] extDB2: SQL_CUSTOM_V2: Version 12 Detected, Latest Version 12 Available
+[21:49:48:886396 +02:00] [Thread 3888] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.container' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: UPDATE container SET abandoned = NOW(), pin_code = '0000' WHERE (SELECT flag_stolen_at FROM territory WHERE territory.id = container.territory_id AND territory.flag_stolen_at < DATE_SUB(NOW(), INTERVAL ? DAY));
+[21:49:48:886396 +02:00] [Thread 3888] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:49:48:887396 +02:00] [Thread 3888] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: setAbandonedUnlocked:2
+[21:49:48:892396 +02:00] [Thread 4644] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.container' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: UPDATE container SET deleted_at = NOW() WHERE last_updated_at < DATE_SUB(NOW(), INTERVAL ? DAY) AND territory_id IS NULL AND deleted_at IS NULL
+[21:49:48:892396 +02:00] [Thread 4644] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:49:48:893396 +02:00] [Thread 4644] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: markDeleteOldContainers:10
+[21:49:48:898396 +02:00] [Thread 1072] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.container' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: UPDATE container SET deleted_at = (SELECT deleted_at FROM territory WHERE territory.id = container.territory_id AND territory.deleted_at IS NOT NULL) WHERE container.territory_id IS NOT NULL
+[21:49:48:898396 +02:00] [Thread 1072] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:49:48:898396 +02:00] [Thread 1072] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: markDeleteUnpaidTerritories:7
+[21:49:48:900397 +02:00] [Thread 3888] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.container' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: DELETE FROM container WHERE deleted_at < DATE_SUB(NOW(), INTERVAL ? DAY) AND territory_id IS NULL
+[21:49:48:900397 +02:00] [Thread 3888] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:49:48:900397 +02:00] [Thread 3888] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: deleteOldContainers:3
+[21:49:48:900397 +02:00] [Thread 1072] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.container' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: UPDATE container SET abandoned = NOW(), pin_code = '0000' WHERE last_updated_at < DATE_SUB(NOW(), INTERVAL ? DAY) AND class = "Exile_Container_Safe" AND territory_id IS NULL
+[21:49:48:900397 +02:00] [Thread 1072] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:49:48:901397 +02:00] [Thread 1072] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: addAbandonedSafes:7
+[21:49:49:119409 +02:00] [Thread 3968] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String loadTerritoryVehicles:1
+[21:49:49:119409 +02:00] [Thread 3968] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname loadTerritoryVehicles
+[21:49:49:940456 +02:00] [Thread 3968] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'exile.container' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT id FROM container WHERE deleted_at IS NULL LIMIT ?,?
+[21:49:49:940456 +02:00] [Thread 3968] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:49:49:940456 +02:00] [Thread 3968] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: loadContainerIdPage:0:100
+[22:37:27:531901 +02:00] [Thread 3968] extDB2: Stopping ...

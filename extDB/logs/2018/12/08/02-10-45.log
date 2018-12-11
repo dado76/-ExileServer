@@ -1,0 +1,27 @@
+extDB2: Version: 70
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 8 Cores, Setting up 6 Worker Threads
+
+
+[03:10:45:606261 +02:00] [Thread 27920] extDB2: Database Type: MySQL
+[03:10:45:609036 +02:00] [Thread 27920] extDB2: Database Session Pool Started
+[03:10:45:610283 +02:00] [Thread 27920] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Arma\Server\@Exileserver\extDB\sql_custom_v2\exile.ini
+[03:10:45:610408 +02:00] [Thread 27920] extDB2: SQL_CUSTOM_V2: Version 12 Detected, Latest Version 12 Available
+[03:12:28:124748 +02:00] [Thread 23892] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Input String updatePlayer:dado:0:100:100:0:1:0:[]:0:14837.583984:14794.119141:0.000442505:["ItemMap","ItemCompass","ItemWatch","ItemRadio"]::[]:[]:[]:::["","","",""]::::[]::["","","",""]::["","","",""]::[]:[]:[]::[]:[]:[]:-1
+[03:12:28:124789 +02:00] [Thread 23892] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Expected: 39 Got: 37
+[03:13:26:953858 +02:00] [Thread 23892] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Input String updatePlayer:dado:0:100:100:0:0:0:[]:0.954741:14837.582031:14794.12207:0.000450134:["ItemMap","ItemCompass","ItemWatch","ItemRadio"]::[]:[]:[]:::["","","",""]::::[]::["","","",""]::["","","",""]::[]:[]:[]::[]:[]:[]:-1
+[03:13:26:953888 +02:00] [Thread 23892] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Expected: 39 Got: 37
+[03:18:02:309997 +02:00] [Thread 23892] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Input String updatePlayer:dado:0:100:100:0:0:0:[]:0.77637:14837.583984:14794.119141:0.000442505:["ItemMap","ItemCompass","ItemWatch","ItemRadio"]::[]:[]:[]:::["","","",""]::::[]::["","","",""]::["","","",""]::[]:[]:[]::[]:[]:[]:-1
+[03:18:02:310040 +02:00] [Thread 23892] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Expected: 39 Got: 37
+[03:19:01:796764 +02:00] [Thread 23892] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Input String updatePlayer:dado:0:100:100:0:1:0:[]:359.709747:14837.583984:14794.119141:0.000442505:["ItemMap","ItemCompass","ItemWatch","ItemRadio"]::[]:[]:[]:::["","","",""]::::[]::["","","",""]::["","","",""]::[]:[]:[]::[]:[]:[]:-1
+[03:19:01:796840 +02:00] [Thread 23892] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Expected: 39 Got: 37
